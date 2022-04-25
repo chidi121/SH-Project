@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: hsl(218, 28%, 13%);   
+}
+body{
+    background:hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Open sans", sans-serif;
+}
+nav{
+    width: 90%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    Justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 130px;
+    height: auto;
+
+}
+
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 0px 10px 0px;
+    position: relative;
+    margin-right: 20px;
+}
+.nav-link ul li a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+.nav-link ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.illustration{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.introtext{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px
+}
+.introtext h1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+}
+.introtext p{
+    width: 500px;
+    line-height: 1.6rem;
+    font-weight: 700px;
+    margin: 0 auto 30px;
+}
+#btn{
+    width: 250px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    background: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+}
+#btn a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(176, 68%, 64%);
+}
+.curvy-bg{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    top: -210px;
+    z-index: -1;
+}
+.portfolio{
+    width: 100%;
+    height: auto;
+    background: hsl(218, 28%, 13%);
+    position: relative;
+    top: -210px;
+}
+.AccessSecurity{
+    width: 70%;
+    min-height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.access .security{
+    margin: 30px 0;
+    width: 400px;
+    line-height: 1.5rem;
+}
+
+.CollaborationStorage{
+    width: 70%;
+    min-height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;  
+}
+h2{
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 5px;
+    width: 400px;
+}
+.productive{
+    width: 85%;
+    margin: 30px auto 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imgageP{
+    width: 700px;
+    height: auto;
+}
+.productivetext{
+    width: 900px;
+
+}
+.productivetext h1{
+        margin-bottom: 15px;
+        font-size: 30px;
+        width: 300px;
+        font-family: "Raleway", sans-serif;
+}
+.productivetext p{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.productive a{
+    color: hsl(176, 68%, 64%);
+    margin-right: 7px;
+}
+.testimonial-section{
+    width:90%;
+    min-height: 70vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+.testimonial-section::after{
+    content:url(img/bg-quotes.png);
+    position: absolute;
+    top: -15px;
+    left: -10px;
+}
+    .testimonial-card{
+    width: 385px;
+    height: 200px;
+    background: hsl(219, 30%, 18%);
+    padding: 25px 15px;
+    box-shadow: 2px 2px 2px hsl(217, 27%, 20%);
+    z-index: 25;
+    
+}
+.testimonialtext{
+    width: 345px;
+    font-size: 14px;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5rem;
+}
+.profile{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.profile1{
+    width: 50px;
+    height: 50px;
+    background: url(img/profile-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.profile2{
+    width: 50px;
+    height: 50px;
+    background: url(img/profilep-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.profile3{
+    width: 50px;
+    height: 50px;
+    background: url(img/profile-3.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.signUp{
+    width: 60%;
+    height: 35vh;
+    margin: auto;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    /*z-index: 1;*/
+    position: relative;
+}
+.signuptext h1{
+    margin-bottom: 15px;
+}
+form{
+    margin-top: 30px;
+}
+input[type="email"]{
+    width: 500px;
+    padding:14px 20px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 100%);
+    margin-right: 25px;
+}
+input[type="submit"]{
+    width: 200px;
+    padding: 14px 20px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(176, 68%, 64%);
+    margin-right: 25px;
+    color: hsl(0, 0%, 100%);
+}
+footer{
+    width: 100%;
+    height: 60vh;
+    background: hsl(217, 28%, 15%);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+footer .logo{
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+.footerB{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+   width: 350px;
+    display: flex;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+    line-height: 2rem;
+}
+li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.fa-brands{
+    margin-right: 10px;
+    padding: 5px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%
+}
+a .fa-brands{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.fa-brands:hover{
+    color: hsl(176, 68%, 64%);
+}
+
+
+
+@media screen and (max-width:375px){
+    nav{
+        width: 90%;
+    }
+    .logo{
+        width: 70px;
+        height: auto;
+    }
+    nav-link ul li{
+        width: 70px;
+        margin-right: 5px;
+    }
+    .illustration{
+        width: 300px;
+        margin: auto;
+    }
+    .intro{
+        width: 350px;
+    }
+    .introtext{
+        width: 300px;
+        margin: auto;
+    }
+    .introtext h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .introtext p{
+        width: 318px;
+        line-height: 1.5rem;
+    }
+    #btn{
+        width: 200px;
+    }
+    .curvy-bg{
+        display: none;
+    }
+    .AccessSecurity{
+        width: 200%;
+        margin: 250px auto 0;
+    }
+    .text1{
+        margin: 300px;
+        margin: auto;
+    }
+    .text1 h2{
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    .text1 p{
+        font-size: 14px;
+        width: 200px;
+        margin: auto;
+    }
+    .CollaborationStorage{
+        width: 200%;
+        margin: 40px auto 0;
+    }
+    .productive{
+        margin-top: 0;
+    }
+    .imageP{
+        width: 350px;
+        height: auto;
+    }
+    .productivetext h1{
+        font-size: 1.0rem;
+        margin: 15px 0;
+    }
+    .productivetext p{
+        margin-bottom: 30px;
+        font-size: 14px
+    }
+    .testimonial-section{
+        width: 90%;
+        min-height: 100vh;
+        margin: 100px auto;
+    }
+    .testimonial-section::after{
+        top: -30px;
+        left: -10px;
+    }
+    .testimonial-card{
+        width: 350px;
+        height: 230px;
+        margin-bottom: 25px;
+    }
+    .testimonialtext{
+        width: 310px;
+    }
+    .signUp{
+        width: 90%;
+        height: 60vh;
+        margin: auto;
+        position: relative;
+        top: 50px;
+    }
+    .signuptext{
+        width: 300px;
+    }
+    .signuptext h1{
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+    input[type="email"]{
+        width: 300px;
+        margin-bottom: 15px;
+    }
+    input[type="submit"]{
+        width: 300px;
+        margin-bottom: 15px;
+    }
+footer{
+    height: 120vh;
+}
+footer .logo{
+    width:120px;
+    top: 80px;
+    left: 30px;
+}
+.footerB{
+    width: 85%;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.location{
+    width: 300px;
+}
+.footerB p{
+    font-size: 14px;
+    margin-bottom: 35px;
+    line-height: 1.2rem;
+}
+.AboutUs{
+    width: 15px 0;
+    margin: 15px 0 0;
+}
+.ContactUs{
+    margin-top: 30px;
+}
+.handleLink{
+    /*width: 20px;
+    /*margin: 15px auto 0;*/
+    margin-left: 100px;
+}
+}
