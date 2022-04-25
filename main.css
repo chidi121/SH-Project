@@ -304,7 +304,7 @@ a .fa-brands{
 
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:1440px){
     nav{
         width: 90%;
     }
@@ -342,7 +342,7 @@ a .fa-brands{
         display: none;
     }
     .AccessSecurity{
-        width: 200%;
+        width: 100%;
         margin: 250px auto 0;
     }
     .text1{
@@ -359,7 +359,7 @@ a .fa-brands{
         margin: auto;
     }
     .CollaborationStorage{
-        width: 200%;
+        width: 100%;
         margin: 40px auto 0;
     }
     .productive{
